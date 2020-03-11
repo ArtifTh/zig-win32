@@ -34537,7 +34537,7 @@ pub const struct_tagFUNCDESC = extern struct {
     lprgelemdescParam: [*c]ELEMDESC,
     funckind: FUNCKIND,
     invkind: INVOKEKIND,
-    callconv: CALLCONV,
+    _callconv: CALLCONV,
     cParams: SHORT,
     cParamsOpt: SHORT,
     oVft: SHORT,
