@@ -7363,7 +7363,7 @@ pub const struct_HFONT__ = extern struct {
 };
 pub const HFONT = [*c]struct_HFONT__;
 pub const struct_HICON__ = extern struct {
-    unused: c_int,
+    unused: i8,
 };
 pub const HICON = [*c]struct_HICON__;
 pub const struct_HMENU__ = extern struct {
